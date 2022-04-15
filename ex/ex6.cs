@@ -1,0 +1,14 @@
+﻿int num1, num2, resto1, resto2;
+double div1, div2;
+Console.WriteLine("Insira um número inteiro:");
+num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Insira outro número inteiro:");
+num2 = Convert.ToInt32(Console.ReadLine());
+div1 = num1 / num2;
+div2 = num2 / num1;
+resto1 = num1 % num2;
+resto2 = num2 % num1;
+Console.WriteLine("O quociente da divisão entre "+ num1 + " e " + num2 + " é " + div1);
+Console.WriteLine("O quociente da divisão entre "+ num2 + " e " + num1 + " é " + div2);
+Console.WriteLine("O resto da divisão entre "+ num1 + " e " + num2 + " é " + resto1);
+Console.WriteLine("O resto da divisão entre "+ num2 + " e " + num1 + " é " + resto2);

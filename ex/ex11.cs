@@ -1,0 +1,17 @@
+﻿double nota1, nota2, notasem, notabi, notabi2;
+Console.WriteLine("--- 1 BIMESTRE ---");
+Console.WriteLine("Insira a primeira nota de prova");
+nota1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Insira a segunda nota de prova");
+nota2 = Convert.ToDouble(Console.ReadLine());
+notabi = (nota1 + nota2) / 2;
+Console.WriteLine("A média do primeiro bimestre foi de "+ notabi);
+Console.WriteLine("\n--- 2 BIMESTRE ---");
+Console.WriteLine("Insira a primeira nota de prova");
+nota1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Insira a segunda nota de prova");
+nota2 = Convert.ToDouble(Console.ReadLine());
+notabi2 = (nota1 + nota2)/2;
+Console.WriteLine("A média do segundo bimestre foi de " + notabi2);
+notasem = (notabi + notabi2) / 2;
+Console.WriteLine("Logo, a média do semestre foi de " + notasem);
